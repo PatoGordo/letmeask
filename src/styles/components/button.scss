@@ -1,0 +1,27 @@
+@use '../variables.scss' as vars;
+
+.button {
+  margin-top: 64px;
+  height: 50px;
+  border-radius: 8px;
+  padding: 0 32px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 0;
+  transition: filter 0.2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:not(:disabled):hover {
+    filter: brightness(0.9);
+  }
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  &.primary {
+    background: vars.$accent_primary;
+    color: #fff;
+  }
+}

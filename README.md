@@ -11,7 +11,14 @@
   - [x] firebase
 
 ## ToDo Day 2
-- [ ] ...
+- [x] screens
+  - [x] auth
+  - [x] new room
+- [x] routing
+- [x] firebase auth
+- [x] react context
+- [x] save user data to context
+- [x] retrive context on reload
 
 ## ToDo Day 3
 - [ ] ...

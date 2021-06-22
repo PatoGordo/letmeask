@@ -1,0 +1,23 @@
+@use './variables' as vars;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: 400 16px 'Roboto', sans-serif;
+}
+body {
+  background: vars.$bg_primary;
+  color: vars.$color_primary;
+}
+.only-screen-reader {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border-width: 0;
+}

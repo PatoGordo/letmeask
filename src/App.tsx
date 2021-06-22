@@ -1,21 +1,18 @@
-import React, { useEffect, useState } from 'react'
-import { db } from './services/firebase'
+import React from 'react'
+import { BrowserRouter, Route } from 'react-router-dom'
+
+import { Home } from './pages/Home'
+import { NewRoom } from './pages/NewRoom'
+
+import { AuthContextProvider } from './contexts/authContext'
 
 export function App() {
-  const [dbRes, setDbRes] = useState('Not sent yet')
-
-  useEffect(() => {
-    db.ref('test').set({
-      text: 'Hello World'
-    })
-    .then(() => {
-      setDbRes('Added successfully')
-    })
-    .catch((err) => {
-      setDbRes(err.message)
-    })
-  }, [])
   return (
-    <h1>Data add test: {dbRes}</h1>
+    <BrowserRouter>
+      <AuthContextProvider>
+        <Route path="/" exact component={Home} />
+        <Route path="/new" component={NewRoom} />
+      </AuthContextProvider>
+    </BrowserRouter>
   )
 }
