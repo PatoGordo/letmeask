@@ -13,6 +13,7 @@ firebase.initializeApp({
   appId: "1:653939351006:web:c6d99485320835c51dd14f",
   measurementId: "G-XHB5Z0WXQE"
 })
+
 firebase.analytics()
 
 const auth = firebase.auth()

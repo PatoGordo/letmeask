@@ -20,7 +20,18 @@
 - [x] save user data to context
 - [x] retrive context on reload
 
-## ToDo Day 3
+## ToDo Day 3 part 1
+- [x] create rooms
+- [x] enter in rooms
+- [x] firebase database rules
+- [x] room page
+- [x] new question
+
+## ToDo Day 3 part 2
+- [ ] html & css room page
+- [ ] getting questions from db
+- [ ] realtime update
+- [ ] create hook useRoom()
 - [ ] ...
 
 ## ToDo Day 4
