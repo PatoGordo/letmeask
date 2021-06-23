@@ -28,9 +28,9 @@
 - [x] new question
 
 ## ToDo Day 3 part 2
-- [ ] html & css room page
-- [ ] getting questions from db
-- [ ] realtime update
+- [x] html & css room page
+- [x] getting questions from db
+- [x] realtime update
 - [ ] create hook useRoom()
 - [ ] ...
 
@@ -41,4 +41,5 @@
 - [ ] ...
 
 ## Plans
+- [ ] change roomRef.on('value') to child_addd, changed, removed.
 - [ ] ...
