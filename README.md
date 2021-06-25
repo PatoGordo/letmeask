@@ -2,10 +2,10 @@
 
 <div align="center">
   &gt;
-    <a href="#-Techs">Techs</a> |
-    <a href="#-how-to-run">How to run</a> | 
-    <a href="#-app-preview">Preview</a> | 
-    <a href="#-support-the-project">Support the project</a>
+    <a href="#-Technologies-">Technologies</a> |
+    <a href="#-how-to-run-">How to run</a> | 
+    <a href="#-preview-">Preview</a> | 
+    <a href="#-show-your-support-">Support the project</a>
   &lt;
 </div>
 
@@ -19,9 +19,7 @@
   <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=000000&labelColor=8257E5" alt="NLW Togheter" />
 </div>
 
-<h2><a href="https://letmeask.patogordo.ga/">Homepage 🏠</a></h2>
-
-<h2 align="start" id="Techs">Technologies 📓</h2>
+## Technologies 📓
 
 <p align="start">This project was developed using</p>
 
@@ -47,7 +45,7 @@ Follow the steps below to run this project
 - Change the firebase config to your keys.
 - Start the dev server with `yarn dev`
 
-## Preview
+## Preview 🖥️
 <img src="https://raw.githubusercontent.com/PatoGordo/PatoGordo/main/Images/letmeask.patogordo.ga.png" alt="PatoGordo Let Me Ask Preview">
 
 ## Show your support 🤝
