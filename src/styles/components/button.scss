@@ -23,4 +23,9 @@
     background: vars.$accent_primary;
     color: #fff;
   }
+  &.outlined {
+    background: #fff;
+    border: 1px solid vars.$accent_primary;
+    color: vars.$accent_primary;
+  }
 }

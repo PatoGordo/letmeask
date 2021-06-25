@@ -31,15 +31,21 @@
 - [x] html & css room page
 - [x] getting questions from db
 - [x] realtime update
-- [ ] create hook useRoom()
-- [ ] ...
 
 ## ToDo Day 4
-- [ ] ...
+- [x] create hook useRoom()
+- [x] questions in rooms
+- [x] admin page
+- [x] remove question
+- [x] close room
 
 ## ToDo Day 5
 - [ ] ...
 
 ## Plans
 - [ ] change roomRef.on('value') to child_addd, changed, removed.
+- [ ] resposivity
+- [ ] pwa
+- [ ] add SweetAlert2 in modals
+- [ ] dark theme
 - [ ] ...

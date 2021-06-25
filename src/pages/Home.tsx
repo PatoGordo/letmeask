@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom'
 
 import ASideImage from '../assets/images/illustration.svg'
 import LogoImg from '../assets/images/logo.svg'
-import GoogleIconImg from '../assets/images/google-icon.svg'
+import LogoGoogle from '../assets/images/google-icon.svg'
 
 import { ButtonPrimary } from "../components/Button";
 import { useAuth } from "../hooks/useAuth";
@@ -34,7 +34,12 @@ export function Home() {
     const roomRef = await db.ref(`rooms/${roomCode}`).get()
 
     if(!roomRef.exists()) {
-      alert('😕 This room was closed, or not exists.')
+      alert('This room not exists.')
+      return
+    }
+
+    if(roomRef.val().endedAt) {
+      alert('This room already closed 😕.')
       return
     }
 
@@ -52,7 +57,7 @@ export function Home() {
         <div className="main-content">
           <img src={LogoImg} alt="LetMeAsk logo" />
           <button onClick={() => createRoomWithGoogle()} className="auth-google">
-            <img src={GoogleIconImg} alt="Google logo" />
+            <img src={LogoGoogle} alt="Logo google" />
             Crie sua sala com o Google
           </button>
           <div className="separator">ou entre em uma sala</div>
