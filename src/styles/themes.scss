@@ -1,0 +1,95 @@
+@use './variables.scss' as vars;
+
+body {
+  background: vars.$bg_primary !important;
+  color: vars.$color_primary !important;
+  &.dark {
+    background: vars.$bg_primary_dark !important;
+    color: vars.$color_primary_dark !important;
+    #page-room {
+      main {
+        .room-title {
+          h1 {
+            color: vars.$color_primary_dark !important
+          }
+          span {
+            background: vars.$accent_secondary !important;
+          }
+        }
+        form {
+          span {
+            color: vars.$color_primary_dark !important;
+          }
+          > span button {
+            color: vars.$accent_primary_dark !important;
+          }
+        }
+      }
+      header {
+        > div > div, > div {
+          .button {
+            background: vars.$accent_primary_dark !important;
+            color: #fff !important;
+          }
+          button {
+            background: vars.$bg_primary_dark !important;
+          }
+        }
+      }
+    }
+    #home-component {
+      aside {
+        background: vars.$accent_primary_dark !important;
+      }
+      form {
+        .create_new_room_p {
+          a{
+            color: vars.$accent_secondary_dark !important
+          }
+        }
+      }
+    }
+    .create_new_room_p {
+      color: vars.$color_primary_dark !important;
+      a {
+        color: vars.$accent_primary_dark !important;
+      }
+    }
+    .question {
+      background: #292f36 !important;
+      P {
+        color: vars.$color_primary_dark !important;
+      }
+      .user-info span {
+        color: vars.$color_primary_dark !important;
+      }
+      &.highlighted {
+        p {
+          color: #fff !important;
+        }
+      }
+      footer {
+        > div button img {
+          background: #f4f0ff !important;
+          border-radius: 50% !important;
+          padding: 3px !important;
+          object-fit: cover !important;
+        }
+      }
+    }
+    input {
+      background: #22272e !important;
+      color: #fff !important;
+    }
+    textarea {
+      background: #292f36 !important;
+      color: #fff !important;
+    }
+    button {
+      color: #fff !important;
+    }
+    .room-title span {
+      background: vars.$accent_primary_dark !important;
+    }
+  }
+}

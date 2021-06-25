@@ -46,6 +46,8 @@ Follow the steps below to run this project
 ## Plans to project
 - [ ] Responsive version
 - [ ] Dark theme
+  - [x] Dark theme pallete
+  - [ ] Toggle
 - [ ] Progressive Web App
 - [ ] Change firebase database to firestore
 
