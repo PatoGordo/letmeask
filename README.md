@@ -1,7 +1,7 @@
 <h1 align="center">Let Me Ask!</h1>
 
 <div align="center">
-  <a href="https://letmeask.patogordo.ga/">Home page</a>
+  <a href="https://letmeask.patogordo.ga/" target="_blank">Home page</a>
 </div>
 
 <br />
@@ -19,16 +19,16 @@
 <p align="start">This project was developed using</p>
 
 <div align="start">
-  <a href="https://reactjs.org">
+  <a href="https://reactjs.org" target="_blank">
     <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
   </a>
-  <a href="https://firebase.google.com/">
+  <a href="https://firebase.google.com/" target="_blank">
     <img alt="Firebase" src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=white">
   </a>
-  <a href="https://sass-lang.com/">
+  <a href="https://sass-lang.com/" target="_blank">
     <img alt="Sass" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
   </a>
-  <a href="https://www.typescriptlang.org/">
+  <a href="https://www.typescriptlang.org/" target="_blank">
     <img alt="Typescript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
   </a>
 </div>
