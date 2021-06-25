@@ -1,12 +1,7 @@
 <h1 align="center">Let Me Ask!</h1>
 
 <div align="center">
-  &gt;
-    <a href="#Technologies-📓">Technologies</a> |
-    <a href="#how-to-run-⚙️">How to run</a> | 
-    <a href="#preview">Preview</a> | 
-    <a href="#show-your-support-🤝">Support the project</a>
-  &lt;
+  <a href="https://letmeask.patogordo.ga/">Home page</a>
 </div>
 
 <br />
