@@ -43,6 +43,12 @@ Follow the steps below to run this project
 ## Preview 🖥️
 <img src="https://raw.githubusercontent.com/PatoGordo/PatoGordo/main/Images/letmeask.patogordo.ga.png" alt="PatoGordo Let Me Ask Preview">
 
+## Plans to project
+- [ ] Responsive version
+- [ ] Dark theme
+- [ ] Progressive Web App
+- [ ] Change firebase database to firestore
+
 ## Show your support 🤝
 
 Give a ⭐️ if this project helped you!<br>
