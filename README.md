@@ -1,51 +1,66 @@
-# LetMeAsk nlw-together react-trail
+<h1 align="center">Let Me Ask!</h1>
+
+<div align="center">
+  &gt;
+    <a href="#-Techs">Techs</a> |
+    <a href="#-how-to-run">How to run</a> | 
+    <a href="#-app-preview">Preview</a> | 
+    <a href="#-support-the-project">Support the project</a>
+  &lt;
+</div>
+
+<br />
+
+<div align="center">
+  <img src="https://img.shields.io/static/v1?label=License&message=MIT&color=8257E5&labelColor=000000" alt="MIT License">
+  &#8205;&#8205;
+  <img src="https://img.shields.io/static/v1?label=Version&message=1.0&color=8257E5&labelColor=8257E5" alt="MIT License">
+  &#8205;&#8205;
+  <img src="https://img.shields.io/static/v1?label=NLW&message=06&color=000000&labelColor=8257E5" alt="NLW Togheter" />
+</div>
+
+<h2><a href="https://letmeask.patogordo.ga/">Homepage 🏠</a></h2>
+
+<h2 align="start" id="Techs">Technologies 📓</h2>
+
+<p align="start">This project was developed using</p>
+
+<div align="start">
+  <a href="https://reactjs.org">
+    <img alt="React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  </a>
+  <a href="https://firebase.google.com/">
+    <img alt="Firebase" src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=white">
+  </a>
+  <a href="https://sass-lang.com/">
+    <img alt="Sass" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
+  </a>
+  <a href="https://www.typescriptlang.org/">
+    <img alt="Typescript" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+  </a>
+</div>
+
+## How To Run ⚙️
+Follow the steps below to run this project
+- Clone o repository
+- Use `yarn` to install all dependencies
+- Change the firebase config to your keys.
+- Start the dev server with `yarn dev`
+
+## Preview
+<img src="https://raw.githubusercontent.com/PatoGordo/PatoGordo/main/Images/letmeask.patogordo.ga.png" alt="PatoGordo Let Me Ask Preview">
+
+## Show your support 🤝
+
+Give a ⭐️ if this project helped you!<br>
+Makes a [pull request](https://github.com/PatoGordo/letmeask/pulls) adding new features or solving bugs. <br>
+Create a [Issue](https://github.com/PatoGordo/Rocket-Launches/issues) if you don't want to implement the feature or fix the bug. <br>
+
+## Author 🧑‍💻
+**PatoGordo**
+* Website: [https://icarodev.ga](https://icarodev.ga) <br>
+* Github: [@PatoGordo](https://github.com/PatoGordo) <br>
 
 ***
 
-## ToDo Day 1
-- [x] create environment
-  - [x] vitejs
-  - [x] react
-  - [x] typescript
-  - [x] sass
-  - [x] firebase
-
-## ToDo Day 2
-- [x] screens
-  - [x] auth
-  - [x] new room
-- [x] routing
-- [x] firebase auth
-- [x] react context
-- [x] save user data to context
-- [x] retrive context on reload
-
-## ToDo Day 3 part 1
-- [x] create rooms
-- [x] enter in rooms
-- [x] firebase database rules
-- [x] room page
-- [x] new question
-
-## ToDo Day 3 part 2
-- [x] html & css room page
-- [x] getting questions from db
-- [x] realtime update
-
-## ToDo Day 4
-- [x] create hook useRoom()
-- [x] questions in rooms
-- [x] admin page
-- [x] remove question
-- [x] close room
-
-## ToDo Day 5
-- [ ] ...
-
-## Plans
-- [ ] change roomRef.on('value') to child_addd, changed, removed.
-- [ ] resposivity
-- [ ] pwa
-- [ ] add SweetAlert2 in modals
-- [ ] dark theme
-- [ ] ...
+<p align="center">Made with 💜 by <a href="https://github.com/PatoGordo" target="_blank">PatoGordo</a></p>

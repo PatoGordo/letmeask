@@ -31,6 +31,10 @@
         font-size: 14px;
       }
     }
+    > div {
+      display: flex;
+      gap: 16px;
+    }
     button {
       border: 0;
       background: transparent;
@@ -52,5 +56,15 @@
         filter: brightness(.7);
       }
     }
+  }
+  &.highlighted {
+    background: #f4f0ff;
+    border: 1px solid vars.$accent_primary;
+    footer .user-info span {
+      color: vars.$color_primary;
+    }
+  }
+  &.answered {
+    background: #dbdcdd;
   }
 }
